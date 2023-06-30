@@ -23,11 +23,9 @@ import time
 # Steg 6: Klicka "Logg out" och sedan stäng ner sidan
 
 # wallet
-Wallet = "Your wallet address!"
+Wallet = "385rfPaZp4twwVsFQ6a1Df8veg8M5TcM6v"
 
-# Setup
-PATH = "C:\Selenium\chromedriver.exe"
-driver = webdriver.Chrome(PATH)
+driver = webdriver.Chrome()
 
 driver.get("https://www.moonbitcoins.com/")
 print(driver.title)
