@@ -25,7 +25,7 @@ import time
 # wallet
 Wallet = "385rfPaZp4twwVsFQ6a1Df8veg8M5TcM6v"
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome("chromedriver.exe")
 
 driver.get("https://www.moonbitcoins.com/")
 print(driver.title)
